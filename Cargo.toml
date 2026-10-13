@@ -2,7 +2,7 @@
 name = "ezagents"
 version = "0.1.0"
 edition = "2021"
-authors = ["EzLabs Core Team <contact@ezlabs.tech>"]
+authors = ["EzLabs Core Team <namhv@ezlabs.tech>"]
 description = "Production-grade Model Context Protocol (MCP) agent orchestration engine written in Rust."
 license = "MIT"
 repository = "https://github.com/namhv94/ezAgents"
