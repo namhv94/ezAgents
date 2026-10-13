@@ -1,0 +1,26 @@
+[package]
+name = "ezagents"
+version = "0.1.0"
+edition = "2021"
+authors = ["EzLabs Core Team <contact@ezlabs.tech>"]
+description = "Production-grade Model Context Protocol (MCP) agent orchestration engine written in Rust."
+license = "MIT"
+repository = "https://github.com/namhv94/ezAgents"
+homepage = "https://ezlabs.tech"
+keywords = ["mcp", "agent", "orchestration", "safety", "ezlabs"]
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"
+hex = "0.4"
+thiserror = "1.0"
+
+[[bin]]
+name = "ezagents"
+path = "src/main.rs"
+
+[lib]
+name = "ezagents"
+path = "src/lib.rs"

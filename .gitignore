@@ -27,5 +27,6 @@ ENV/
 .pytest_cache/
 .coverage
 htmlcov/
+/target/
 workspace/
 tmp*/
